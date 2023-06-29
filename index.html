@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Wibu Tailwind CSS</title>
+
+    <link rel="stylesheet" href="./dist/output.css" />
+  </head>
+  <body class="bg-blue-600">
+    <div class="mt-24 mb-26 bg-white max-w-4xl px-10 mx-auto rounded-md">
+      <div class="flex flex-row">
+        <div class="basis-2/5">
+          <img
+            src="./imgs/bailu.jpg"
+            alt=""
+            class="w-10/12 h-80 -mt-12 object-cover drop-shadow-2xl rounded-md"
+          />
+        </div>
+        <div class="ml-4 grow">
+          <div class="flex flex-row w-full mt-4">
+            <div
+              class="grow border-r border-b border-r-gray-300 border-b-gray-500 p-8"
+            >
+              <h2 class="font-bold text-xl">Waifu là bất diệt</h2>
+              <p>Anime là nhất :))</p>
+              <p>Waifu là chất</p>
+            </div>
+            <div class="grow border-b border-b-gray-500 p-8">
+              <h2 class="font-bold text-2xl">Top Best Waifu:</h2>
+              <ul class="list-decimal flex flex-col ml-5">
+                <li>Hoshino Ai</li>
+                <li>Hoshino Ruby</li>
+                <li>Akane</li>
+                <li>Hoshino</li>
+                <li>Eiko</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-6 pb-8">
+        <h2 class="text-2xl font-bold">
+          Danh sách nhân vật anime có thể bạn sẽ thích 🌚
+        </h2>
+
+        <div class="grid grid-cols-4 gap-2 mt-2 album"></div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
