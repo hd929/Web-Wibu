@@ -1,4 +1,4 @@
-# My info WIBU
+# My info about Anime
 - Name: David Hán
 - Github: hd929
 
